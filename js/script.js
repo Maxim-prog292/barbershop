@@ -169,14 +169,14 @@ function addImg(index) {
     buttonAll[index].style.display = 'none';
 
     const imagesSRC = [
-        ['/image/work1row1img1.png',
-         '/image/work1row1img2.png',
-         '/image/work1row1img3.png',
-         '/image/work1row1img4.png'],
-        ['/image/work1row2img1.png',
-         '/image/work1row2img2.png',
-         '/image/work1row2img3.png',
-         '/image/work1row2img4.png']
+        ['image/work1row1img1.png',
+         'image/work1row1img2.png',
+         'image/work1row1img3.png',
+         'image/work1row1img4.png'],
+        ['image/work1row2img1.png',
+         'image/work1row2img2.png',
+         'image/work1row2img3.png',
+         'image/work1row2img4.png']
     ];
     const imagesBlock = document.querySelectorAll('.portfolio_page__images');
 
